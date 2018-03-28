@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DesignMode" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="DesignMode" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="SbtSettings">
+    <option name="sbtLauncherJarPath" value="$PROJECT_DIR$/../../sbt/bin/sbt-launch.jar" />
+    <option name="sbtLauncherVmParameters" value="-Xmx4096M -XX:MaxPermSize=512M -XX:-UseGCOverheadLimit" />
+    <option name="useApplicationSettings" value="false" />
+  </component>
+</project>
